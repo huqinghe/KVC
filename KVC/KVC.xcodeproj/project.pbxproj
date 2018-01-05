@@ -15,6 +15,10 @@
 		FC60BC351FFB2D71009FD94D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60BC341FFB2D71009FD94D /* main.m */; };
 		FC60BC3F1FFB2D71009FD94D /* KVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60BC3E1FFB2D71009FD94D /* KVCTests.m */; };
 		FC60BC4A1FFB2D71009FD94D /* KVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60BC491FFB2D71009FD94D /* KVCUITests.m */; };
+		FC60BC591FFB2F8F009FD94D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60BC581FFB2F8F009FD94D /* Student.m */; };
+		FC60BC5C1FFB676C009FD94D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60BC5B1FFB676C009FD94D /* Dog.m */; };
+		FC60BC5F1FFBA4C9009FD94D /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60BC5E1FFBA4C9009FD94D /* BankAccount.m */; };
+		FC60BC621FFBA53E009FD94D /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60BC611FFBA53E009FD94D /* Transaction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		FC60BC451FFB2D71009FD94D /* KVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC60BC491FFB2D71009FD94D /* KVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCUITests.m; sourceTree = "<group>"; };
 		FC60BC4B1FFB2D71009FD94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC60BC571FFB2F8F009FD94D /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		FC60BC581FFB2F8F009FD94D /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		FC60BC5A1FFB676C009FD94D /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		FC60BC5B1FFB676C009FD94D /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		FC60BC5D1FFBA4C9009FD94D /* BankAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		FC60BC5E1FFBA4C9009FD94D /* BankAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
+		FC60BC601FFBA53E009FD94D /* Transaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		FC60BC611FFBA53E009FD94D /* Transaction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		FCE0361D1FFF2FC60020751F /* 注意事项.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "注意事项.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +123,15 @@
 				FC60BC301FFB2D71009FD94D /* LaunchScreen.storyboard */,
 				FC60BC331FFB2D71009FD94D /* Info.plist */,
 				FC60BC341FFB2D71009FD94D /* main.m */,
+				FC60BC571FFB2F8F009FD94D /* Student.h */,
+				FC60BC581FFB2F8F009FD94D /* Student.m */,
+				FC60BC5A1FFB676C009FD94D /* Dog.h */,
+				FC60BC5B1FFB676C009FD94D /* Dog.m */,
+				FC60BC5D1FFBA4C9009FD94D /* BankAccount.h */,
+				FC60BC5E1FFBA4C9009FD94D /* BankAccount.m */,
+				FC60BC601FFBA53E009FD94D /* Transaction.h */,
+				FC60BC611FFBA53E009FD94D /* Transaction.m */,
+				FCE0361D1FFF2FC60020751F /* 注意事项.h */,
 			);
 			path = KVC;
 			sourceTree = "<group>";
@@ -265,9 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC60BC621FFBA53E009FD94D /* Transaction.m in Sources */,
 				FC60BC2A1FFB2D71009FD94D /* ViewController.m in Sources */,
+				FC60BC5F1FFBA4C9009FD94D /* BankAccount.m in Sources */,
 				FC60BC351FFB2D71009FD94D /* main.m in Sources */,
+				FC60BC5C1FFB676C009FD94D /* Dog.m in Sources */,
 				FC60BC271FFB2D71009FD94D /* AppDelegate.m in Sources */,
+				FC60BC591FFB2F8F009FD94D /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
